@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About-us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body sticky-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="./Images/gradation-m-letter-logo-design_557339-335.avif" alt="M-coder" width="30" height="24"
+                    class="d-inline-block align-text-top mx-2">M-coder
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-4 fs-5 fs-md-6 fs-lg-6 fw-bold">
+                        <a class="nav-link" aria-current="page" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-4 fs-5 fs-md-6 fs-lg-6 fw-bold">
+                        <a class="nav-link" href="./faqs.html">FAQs</a>
+                    </li>
+                    <li class="nav-item mx-4 fs-5 fs-md-6 fs-lg-6 fw-bold">
+                        <a class="nav-link active" href="./about-us.html">About-us</a>
+                    </li>
+                    <li class="nav-item dropdown mx-4 fs-5 fs-md-6 fs-lg-6 fw-bold">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./aptitude.html">Aptitude Practice</a></li>
+                            <li><a class="dropdown-item" href="./interview.html">Interview Practice</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#feedbackModal">Feedback</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Feedback Modal -->
+    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="feedbackModalLabel">Feedback</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="feedback" class="form-label">Feedback</label>
+                            <textarea class="form-control" id="feedback" rows="3" placeholder="Your Feedback"
+                                required></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Submit Feedback</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Large Image on Left Side -->
+            <div class="col-lg-6 d-flex align-items-center justify-content-center vh-100" style="margin-top: 8rem;">
+                <img src="./Images/mohalla.jpg" alt="Large Image" class="large-image my-5" style="  max-width: 100%;
+      height: auto;">
+            </div>
+
+            <!-- Text and Cards on Right Side -->
+            <div class="col-lg-6 d-flex flex-column justify-content-center">
+                <h1 class="mb-4" style="   font-family: 'Arial', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #000000;
+      text-align: center;
+      margin: 3rem 0;
+      padding: 1rem;
+      background: #deeaf6;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      display: inline-block;">About-us</h1>
+                <p class="mb-4" style=" font-family: 'Arial', sans-serif;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #555;
+      text-align: justify;
+      margin: 0.75rem 0;
+      padding: 0 2rem;
+      border-left: 4px solid #000000;
+      border-right: 4px solid #000000;
+      background-color: #f9f9f9;
+      border-radius: 5px;">Our platform provides a comprehensive solution for both IT and non-IT professionals seeking
+                    to enhance their skills. We
+                    offer access to high-quality, free resources curated from the best available sources. While the
+                    internet is abundant
+                    with information, finding reliable channels and effective courses can be challenging. We simplify
+                    this process by
+                    delivering expertly selected learning materials and guidance, ensuring you follow the most relevant
+                    and impactful
+                    educational paths for development, problem-solving, and beyond. Experience streamlined, professional
+                    growth with our
+                    curated resource hub.</p>
+
+                <!-- Cards Section -->
+                <div class="row g-4">
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <div class="card text-bg-light mb-3" style=" display: flex;
+      align-items: flex-end;
+      max-width: 300px;
+      margin: auto;
+      border: 1px solid #ddd;
+      border-radius: 0.25rem;
+      overflow: hidden;">
+                            <img src="./Images/purpose.avif" class="card-img-top" alt="Card Image 1" style=" flex: 0 0 120px;
+      height: 100px;
+      object-fit: cover; ">
+                            <div class="card-body" style="flex: 1; padding: 1rem;text-align: center;">
+                                <h5 class="card-title fw-bold"
+                                    style="font-size: 1.5rem; margin-bottom: 0.5rem; text-align: center;">Our Purpose
+                                </h5>
+                                <p class="card-text" style="font-size: 0.75rem;
+      margin-bottom: 1rem;
+      text-align: center;">Our purpose is to make coding accessible to everyone. We offer free, high-quality resources
+                                    and step-by-step guidance to
+                                    help beginners embark on their coding journey and build a solid foundation in
+                                    programming</p>
+                                <a href="./index.html" class="btn btn-outline-dark " style="font-size: 0.75rem;">Check</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <div class="card text-bg-light mb-3" style=" display: flex;
+      align-items: flex-end;
+      max-width: 300px;
+      margin: auto;
+      border: 1px solid #ddd;
+      border-radius: 0.25rem;
+      overflow: hidden;">
+                            <img src="./Images/approach.avif" class="card-img-top" alt="Card Image 2" style=" flex: 0 0 120px;
+      height: 100px;
+      object-fit: cover; ">
+                            <div class="card-body" style="flex: 1; padding: 1rem;text-align: center;">
+                                <h5 class="card-title fw-bold" style="font-size: 1.5rem; margin-bottom: 0.5rem;">Our
+                                    Approach
+                                </h5>
+                                <p class="card-text" style="font-size: 0.75rem;margin-bottom: 1rem;">
+                                    We believe in a hands-on, project-based learning approach. Our curated tutorials and
+                                    coding exercises are designed to be
+                                    engaging and practical, ensuring that learners gain real-world experience and
+                                    confidence in their coding skills.</p>
+                                <a href="./index.html" class="btn btn-outline-dark" style="font-size: 0.75rem;">Check</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <div class="card text-bg-light mb-3" style=" display: flex;
+      align-items: flex-end;
+      max-width: 300px;
+      margin: auto;
+      border: 1px solid #ddd;
+      border-radius: 0.25rem;
+      overflow: hidden;">
+                            <img src="./Images/commitment.avif" class="card-img-top" alt="Card Image 3" style=" flex: 0 0 120px;
+      height: 100px;
+      object-fit: cover; ">
+                            <div class="card-body" style="flex: 1; padding: 1rem;text-align: center;">
+                                <h5 class="card-title fw-bold" style="font-size: 1.5rem; margin-bottom: 0.5rem;">Our
+                                    Commitment
+                                </h5>
+                                <p class="card-text" style="font-size: 0.75rem;margin-bottom: 1rem;">
+                                    We foster a supportive community and provide continuous learning through coding
+                                    challenges and personalized mentoring to
+                                    help individuals overcome obstacles and achieve their coding goals.
+                                </p>
+                                <a href="./index.html" class="btn btn-outline-dark" style="font-size: 0.75rem;">Check</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <div class="card text-bg-light mb-3" style=" display: flex;
+      align-items: flex-end;
+      max-width: 300px;
+      margin: auto;
+      border: 1px solid #ddd;
+      border-radius: 0.25rem;
+      overflow: hidden;">
+                            <img src="./Images/resourcez.avif" class="card-img-top" alt="Card Image 4"
+                                style=" flex: 0 0 120px;
+      height: 100px;
+      object-fit: cover; ">
+                            <div class="card-body" style="flex: 1; padding: 1rem;text-align: center;">
+                                <h5 class="card-title fw-bold" style="font-size: 1.5rem; margin-bottom: 0.5rem;">Our Learning Resources
+                                </h5>
+                                <p class="card-text" style="font-size: 0.75rem;margin-bottom: 1rem;">
+                                    Explore our extensive library of materials to kickstart your coding journey. From
+                                    beginner
+                                    tutorials and exercises to
+                                    in-depth guides and projects, our resources meet the needs of coders at every stage.
+                                </p>
+                                <a href="./home.html" class="btn btn-outline-dark" style="font-size: 0.75rem;">Check</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer of the page -->
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc, Made by @MasirJafri</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <img src="./Images/twitter.png" alt="" class="bi" width="24" height="24">
+            </li>
+            <li class="ms-3">
+                <img src="./Images/git.jpg" alt="" class="bi" width="24" height="24">
+            </li>
+            <li class="ms-3"><img src="./Images/Instagram-Emblem.png" alt="" class="bi" width="29" height="24"></li>
+        </ul>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

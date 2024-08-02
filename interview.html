@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interview Practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body
+    style="background-image: url('./Images/aptitudebg.avif'); background-size: cover; background-attachment: fixed; background-position: center;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="./Images/gradation-m-letter-logo-design_557339-335.avif" alt="M-coder Logo" width="30"
+                    height="24" class="d-inline-block align-text-top mx-2">
+                M-coder
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-4 fs-5 fs-md-6 fs-lg-6 fw-bold">
+                        <a class="nav-link" aria-current="page" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-4 fs-5 fs-md-6 fs-lg-6 fw-bold">
+                        <a class="nav-link" href="./faqs.html">FAQs</a>
+                    </li>
+                    <li class="nav-item mx-4 fs-5 fs-md-6 fs-lg-6 fw-bold">
+                        <a class="nav-link" href="./about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown mx-4 fs-5 fs-md-6 fs-lg-6 fw-bold">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./aptitude.html">Aptitude Practice</a></li>
+                            <li><a class="dropdown-item active" href="./interview.html">Interview Practice</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#feedbackModal">Feedback</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Feedback Modal -->
+    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="feedbackModalLabel">Feedback</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="feedback" class="form-label">Feedback</label>
+                            <textarea class="form-control" id="feedback" rows="3" placeholder="Your Feedback"
+                                required></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Submit Feedback</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="container" style="background: rgba(0, 0, 0, 0.7); padding: rem; border-radius: 10px; margin-top: 3rem;">
+        <h1 class="text-center "
+            style="color: #fff; font-size: 2rem; font-weight: 700; margin-bottom: 2rem;padding-top: 2rem;">
+            Websites For Interview Practice
+        </h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card"
+                    style="border: none; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);margin: 1.5rem;">
+                    <img src="./Images/in1.png" class="card-img-top" alt="Aptitude Preparation Video"
+                        style="border-bottom: 3px solid #fff;">
+                    <div class="card-body"
+                        style="color: #000; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 12.9rem;">
+                        <h5 class="card-title text-center"
+                            style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">
+                            Leet-Code</h5>
+                        <p class="card-text text-center" style="font-size: 0.875rem; margin-bottom: 1rem;">
+                            Practice coding interviews with anonymous peers and receive feedback from industry experts.
+                        </p>
+                        <a href="https://leetcode.com/" class="btn btn-outline-dark" target="_blank">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card"
+                    style="border: none; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);margin: 1.5rem;">
+                    <img src="./Images/in2.png" class="card-img-top" alt="Campus Placement Aptitude"
+                        style="border-bottom: 3px solid #fff;">
+                    <div class="card-body text-center"
+                        style="color: #000; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 12.9rem;">
+                        <h5 class="card-title" style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">
+                            Career-Cup</h5>
+                        <p class="card-text" style="font-size: 0.875rem; margin-bottom: 1rem;">
+                            Free, live practice interviews for software engineering and data science roles, matched with
+                            peers.</p>
+                        <a href="https://github.com/topics/careercup?o=asc&s=stars" class="btn btn-outline-dark"
+                            target="_blank">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col">
+                <div class="card"
+                    style="border: none; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);margin: 1.5rem;">
+                    <img src="./Images/in3.jpg" class="card-img-top" alt="Quantitative Aptitude Tutorials"
+                        style="border-bottom: 3px solid #fff;">
+                    <div class="card-body text-center"
+                        style="color: #000; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 12.9rem;">
+                        <h5 class="card-title" style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">
+                            Udemy</h5>
+                        <p class="card-text" style="font-size: 0.875rem; margin-bottom: 1rem;">
+                            Solve algorithm challenges and engage in mock interviews to sharpen coding skills and
+                            prepare for job interviews.
+                        </p>
+                        <a href="https://www.udemy.com/?utm_source=adwords-brand&utm_medium=udemyads&utm_campaign=Brand-Udemy_la.EN_cc.INDIA_dev.&campaigntype=Search&portfolio=BrandDirect&language=EN&product=Course&test=&audience=Keyword&topic=&priority=&utm_content=deal4584&utm_term=_._ag_133043842301_._ad_595460368494_._kw_udemy_._de_c_._dm__._pl__._ti_aud-1738475842996:kwd-296956216253_._li_9061739_._pd__._&matchtype=b&gad_source=1&gclid=CjwKCAjwnqK1BhBvEiwAi7o0Xwct_CcDWqfAr6JL8drrhryegJpFjkNwKK8K1B8pv8JGEckJWtOTyhoC3akQAvD_BwE"
+                            class="btn btn-outline-dark" target="_blank">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col">
+                <div class="card"
+                    style="border: none; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);margin: 1.5rem;">
+                    <img src="./Images/in4.png" class="card-img-top" alt="Aptitude for Placement Preparation"
+                        style="border-bottom: 3px solid #fff;">
+                    <div class="card-body text-center"
+                        style="color: #000; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 12.9rem;">
+                        <h5 class="card-title" style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">
+                            Interview-Buddy</h5>
+                        <p class="card-text" style="font-size: 0.875rem; margin-bottom: 1rem;">
+                            Build coding and problem-solving skills through practice challenges and mock interviews in
+                            various domains.</p>
+                        <a href="https://interviewbuddy.net/" class="btn btn-outline-dark" target="_blank">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col">
+                <div class="card"
+                    style="border: none; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);margin: 1.5rem;">
+                    <img src="./Images/in5.jpg" class="card-img-top" alt="Aptitude for Campus Placement Preparation"
+                        style="border-bottom: 3px solid #fff;">
+                    <div class="card-body text-center"
+                        style="color: #000; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 12.9rem;">
+                        <h5 class="card-title" style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">
+                            Code-Wars</h5>
+                        <p class="card-text" style="font-size: 0.875rem; margin-bottom: 1rem;">
+                            Simulate real interview experiences with coding assessments and interactive practice
+                            sessions.</p>
+                        <a href="https://www.codewars.com/" class="btn btn-outline-dark" target="_blank">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col">
+                <div class="card"
+                    style="border: none; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);margin: 1.5rem;">
+                    <img src="./Images/in6.png" class="card-img-top" alt="Complete TCS Numerical Ability Preparation"
+                        style="border-bottom: 3px solid #fff;">
+                    <div class="card-body text-center"
+                        style="color: #000; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 12.9rem;">
+                        <h5 class="card-title" style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">
+                            Interview-Bit</h5>
+                        <p class="card-text" style="font-size: 0.875rem; margin-bottom: 1rem;">
+                            Enhance technical and behavioral interview skills through curated coding problems and mock
+                            interviews with mentors.</p>
+                        <a href="https://www.interviewbit.com/" class="btn btn-outline-dark" target="_blank">Visit
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer  -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        style="background-color: #e3f2fd;">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc, Made by @MasirJafri</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <img src="./Images/twitter.png" alt="" class="bi" width="24" height="24">
+            </li>
+            <li class="ms-3">
+                <img src="./Images/git.jpg" alt="" class="bi" width="24" height="24">
+            </li>
+            <li class="ms-3">
+                <img src="./Images/Instagram-Emblem.png" alt="" class="bi" width="29" height="24">
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
